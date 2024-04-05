@@ -13,6 +13,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        geolocationappblack: "var(--geolocationappblack)",
+        "geolocationappdusty-gray": "var(--geolocationappdusty-gray)",
+        geolocationappnero: "var(--geolocationappnero)",
+      },
+      fontFamily: {
+        "geolocation-app-inter-bold-11-58-underline":
+          "var(--geolocation-app-inter-bold-11-58-underline-font-family)",
+        "geolocation-app-inter-medium-26-14":
+          "var(--geolocation-app-inter-medium-26-14-font-family)",
+        "www-google-com-arial-regular-14":
+          "var(--www-google-com-arial-regular-14-font-family)",
+      },
     },
   },
   plugins: [],
