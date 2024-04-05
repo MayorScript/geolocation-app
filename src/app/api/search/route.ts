@@ -16,7 +16,7 @@ export async function GET(request: NextRequest) {
       });
     }
 
-    const API_URL = process.env.API_URL;
+    const API_URL = process.env.NEXT_PUBLIC_API_URL;
     if (!API_URL) {
       throw new Error("API_URL environment variable is not defined.");
     }
